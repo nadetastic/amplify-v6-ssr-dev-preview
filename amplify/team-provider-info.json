@@ -1,0 +1,20 @@
+{
+  "vsixdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-emailauth-vsixdev-162321-authRole",
+      "UnauthRoleArn": "arn:aws:iam::524405517764:role/amplify-emailauth-vsixdev-162321-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::524405517764:role/amplify-emailauth-vsixdev-162321-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-emailauth-vsixdev-162321-deployment",
+      "UnauthRoleName": "amplify-emailauth-vsixdev-162321-unauthRole",
+      "StackName": "amplify-emailauth-vsixdev-162321",
+      "StackId": "arn:aws:cloudformation:us-east-1:524405517764:stack/amplify-emailauth-vsixdev-162321/40f7a570-5e45-11ee-babc-0e2b6da61b09",
+      "AmplifyAppId": "d1h9l2amdyeseq"
+    },
+    "categories": {
+      "auth": {
+        "emailauth7e268f797e268f79": {}
+      }
+    }
+  }
+}

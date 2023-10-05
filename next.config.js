@@ -1,4 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const { withAmplify } = require('@aws-amplify/adapter-nextjs/with-amplify');
+const config = require('./src/amplifyconfiguration.json');
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // your Next.js app configuration
+}
+
+module.exports = withAmplify(nextConfig, config);
